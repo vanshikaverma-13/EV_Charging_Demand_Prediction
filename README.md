@@ -3,27 +3,27 @@
 
 ---
 
-### Project Description:
+### Project Description
 
-This project aims to develop a machine learning model that forecasts electric vehicle (EV) charging demand using historical vehicle registration data and regional characteristics.
+This project aims to develop a machine learning model that forecasts electric vehicle (EV) charging demand using historical vehicle registration data and regional characteristics
 
-With the rapid growth of EV adoption, accurate demand forecasting is essential for urban planners and policymakers to ensure proper infrastructure planning—especially for the installation of charging stations. The project includes data preprocessing, exploratory data analysis, and the application of regression techniques to predict future EV trends across counties.
-
----
-
-### Problem Statement:
-
-Using an electric vehicle dataset (which includes information on EV populations, vehicle types, and possibly historical charging usage), this project builds a model that forecasts future EV adoption. For example, predicting the number of electric vehicles in upcoming years based on past trends.
+With the rapid growth of EV adoption, accurate demand forecasting is essential for urban planners and policymakers to ensure proper infrastructure planning—especially for the installation of charging stations. The project includes data preprocessing, exploratory data analysis, and the application of regression techniques to predict future EV trends across counties
 
 ---
 
-### Goal:
+### Problem Statement
 
-To build a regression model that forecasts future EV adoption demand based on historical trends in EV growth, vehicle types, and regional data.
+Using an electric vehicle dataset (which includes information on EV populations, vehicle types, and possibly historical charging usage), this project builds a model that forecasts future EV adoption. For example, predicting the number of electric vehicles in upcoming years based on past trends
 
 ---
 
-### Objectives:
+### Goal
+
+To build a regression model that forecasts future EV adoption demand based on historical trends in EV growth, vehicle types, and regional data
+
+---
+
+### Objectives
 
 - Analyze EV registration trends across time and regions  
 - Perform data cleaning and exploratory data analysis  
@@ -32,16 +32,16 @@ To build a regression model that forecasts future EV adoption demand based on hi
 
 ---
 
-### Tools and Libraries Used:
+### Tools and Libraries Used
 
 - **Language**: Python (Jupyter Notebook)  
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
 
 ---
 
-### Dataset Description:
+### Dataset Description
 
-This dataset includes monthly vehicle registration counts collected by the Washington State Department of Licensing (DOL), covering multiple counties from 2017-01-31 to 2024-02-29.
+This dataset includes monthly vehicle registration counts collected by the Washington State Department of Licensing (DOL), covering multiple counties from 2017-01-31 to 2024-02-29
 
 **Key Features:**
 
@@ -58,15 +58,15 @@ This dataset includes monthly vehicle registration counts collected by the Washi
 
 ---
 
-### Dataset Source:
+### Dataset Source
 
 [Kaggle – Electric Vehicle Population Size 2024](https://www.kaggle.com/datasets/sahirmaharajj/electric-vehicle-population-size-2024/data)
 
 ---
 
-### Outcome:
+### Outcome
 
-The final model helps identify areas with rising EV demand, enabling data-driven decisions for infrastructure investments and contributing to sustainable and smart mobility solutions.
+The final model helps identify areas with rising EV demand, enabling data-driven decisions for infrastructure investments and contributing to sustainable and smart mobility solutions
 
 ---
 
@@ -91,6 +91,26 @@ The final model helps identify areas with rising EV demand, enabling data-driven
 - Built and evaluated regression models for short-term EV adoption prediction
 - Visualized both historical trends and future projections for top counties
 - Saved the trained model as a pickle file (`ev_adoption_model.pkl`) for future use or deployment
+
+---
+
+### Final Submission – Streamlit Dashboard (Local Deployment)
+
+- Built an interactive dashboard in `app.py` using Streamlit
+- Integrated trained model (`forecasting_ev_model.pkl`) for EV adoption forecasting
+- Enabled county-wise trend visualization with 3-year projections
+- Added thematic image (`ev-car-factory.jpg`) for better UI
+- Successfully tested the app locally via the VS Code terminal
+- Listed dependencies in `requirements.txt` for reproducibility
+
+---
+
+## Acknowledgment
+
+This project was completed as part of the **AICTE Internship Cycle 2 by S4F**, focused on electric vehicle analytics and demand forecasting.
+
+
+
 
 
 
